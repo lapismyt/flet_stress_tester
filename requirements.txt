@@ -1,4 +1,2 @@
 flet
 aiohttp
-fake-useragent
-pyinstaller

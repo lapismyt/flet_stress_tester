@@ -94,7 +94,7 @@ jobs:
           --hidden-import=flet \
           --hidden-import=aiohttp \
           --hidden-import=fake_useragent \
-          stress_test.py
+          main.py
 
     - name: Build with PyInstaller (Windows)
       if: matrix.platform == 'windows'
@@ -104,7 +104,7 @@ jobs:
           --hidden-import=flet `
           --hidden-import=aiohttp `
           --hidden-import=fake_useragent `
-          stress_test.py
+          main.py
 
     - name: Upload Release Asset
       uses: softprops/action-gh-release@v1

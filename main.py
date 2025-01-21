@@ -7,6 +7,8 @@ from typing import Optional
 from fake_useragent import UserAgent
 import ssl
 
+# do not read that code pls
+
 
 class StressTest:
     def __init__(self):
